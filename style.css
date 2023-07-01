@@ -1,0 +1,100 @@
+/* 
+--clr-grey-1: hsl(209, 61%, 16%);
+        --clr-grey-2: hsl(211, 39%, 23%);
+        --clr-grey-3: hsl(209, 34%, 30%);
+        --clr-grey-4: hsl(209, 28%, 39%);
+        --clr-grey-5: hsl(210, 22%, 49%);
+        --clr-grey-6: hsl(209, 23%, 60%);
+        --clr-grey-7: hsl(211, 27%, 70%);
+        --clr-grey-8: hsl(210, 31%, 80%);
+        --clr-grey-9: hsl(212, 33%, 89%);
+        --clr-grey-10: hsl(210, 36%, 96%);
+        --clr-coral: coral;
+         */
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.Container{
+    width: 400px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+    padding: 20px;
+    margin: 0 10px;
+    border-radius: 10px;
+}
+
+h2{
+    font-family: cursive;
+    letter-spacing: 1.3px;
+    color: hsl(210, 22%, 49%);
+}
+
+.Container-Input{
+    position: relative;
+    border-radius: 6px;
+    border: 2px solid hsl(210, 31%, 80%);
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#input{
+   border: none;
+   background: transparent;
+   font-size: 18px;
+   letter-spacing: 3px;
+   outline: none;
+   color: hsl(209, 61%, 16%);
+}
+
+.fa-copy{
+    cursor: pointer;
+    color: hsl(210, 22%, 49%);
+    transition: 0.3s;
+}
+
+.fa-copy:hover{
+    color: coral;
+}
+
+#btn{
+    margin: 10px 0;
+    padding: 10px 20px;
+    cursor: pointer;
+    background: hsl(209, 61%, 16%);
+    border: none;
+    border-radius: 6px;
+    color: hsl(210, 36%, 96%);
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    transition: 0.3s;
+}
+
+#btn:hover{
+    background: coral;
+    color:hsl(204, 56%, 98%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
